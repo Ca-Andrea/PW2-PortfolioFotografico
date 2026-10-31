@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Barra de navegación */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 20px;
+  background-color: #3b1e3a;
+}
+
+/* Enlaces del menú */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+/* Enlace de la página activa */
+nav a.active {
+  background-color: #f838de;
+  color: #0f172a;
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover {
+  background-color: #475569;
+  color: white;
+}
+
+/* Centrar el título de la página Contactos */
+h1, h2 {
+text-align: center;
+}
+
+/* Centrar el formulario */
+form {
+margin: 30px auto;
+}

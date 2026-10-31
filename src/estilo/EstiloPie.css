@@ -1,0 +1,11 @@
+/* Estilo del pie de página */
+p {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #3b1e3a;
+  font-size: 14px;
+}
