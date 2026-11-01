@@ -1,7 +1,7 @@
 {
   "name": "pw2_create",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://ca-andrea.github.io/PW2-PortfolioFotografico",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^5.0.3",
@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
